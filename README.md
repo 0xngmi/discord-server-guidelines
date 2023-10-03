@@ -5,9 +5,14 @@ I've spent a lot of time trying different bots, adjusting them, evaluating them.
 
 ## Server settings
 - Disable permissions to create public and private threads for everyone. Scammers use these to scam users while making it harder to spot them since threads are not visible to everyone by default.
+	- Directions: right click on your server icon > Server Settings > Roles > create a new role > search for "public" in "Permissions" tab > disable "Create Public Threads" > under "Manage Members" tab hit "Add Members" button > select all > save > done.
 - Disable permission to tag @everyone
+	- Directions: right click on your server icon > Server Settings > Roles > create a new role > search for “mention” in "Permissions" tab > disable “Mention @everyone, @here, and all Roles” > under "Manage Members" tab hit "Add Members" button > select all > save > done.
 - Go through all general roles and make sure that on "Display" tab, "Allow anyone to @mention this role" is turned off
+	- Directions: right click on your server icon > Server Settings > Roles > examine.
+
 - Set Overview > Default Notification Settings to "Only @mentions", this will stop your users from getting a notification for every new message
+
 - Remove all admin-like permissions, like manage channels... Pay special attention to ensuring that "Manage Webhooks" permissions is turned off, since that's how many big NFT discords were hacked before
 - Make sure that for your announcement channels members can only view channel and view channel history, they cant send messages or create threads
 - Go to Moderation > Safety setup and enable all the stuff that makes sense for you
